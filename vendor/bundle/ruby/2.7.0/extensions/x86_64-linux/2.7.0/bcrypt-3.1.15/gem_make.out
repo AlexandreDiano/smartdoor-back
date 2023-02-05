@@ -1,0 +1,19 @@
+current directory: /home/tcc/Desktop/SmartDoor-rails/SmartDoor-Rails/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+/usr/local/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20200727-28711-1em5naa.rb extconf.rb
+creating Makefile
+
+current directory: /home/tcc/Desktop/SmartDoor-rails/SmartDoor-Rails/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/tcc/Desktop/SmartDoor-rails/SmartDoor-Rails/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/tcc/Desktop/SmartDoor-rails/SmartDoor-Rails/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20200727-28711-1roi8b2
