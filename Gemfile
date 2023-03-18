@@ -35,7 +35,8 @@ gem 'rack-cors'
 gem 'ruby-debug-ide'
 gem 'debase'
 
-gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'faker', '~> 2.18', require: false
+#gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
